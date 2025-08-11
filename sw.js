@@ -1,5 +1,13 @@
 const CACHE_NAME = 'todo-cache-v1';
-const urlsToCache = ['/', '/index.html', '/app.js'];  // 缓存关键文件
+const urlsToCache = [
+  '/', 
+  '/index.html', 
+  '/app.js', 
+  '/manifest.json', 
+  '/icon.png',  // 如果你有图标
+  '/styles.css'  // 新加这一行
+];
+
 
 self.addEventListener('install', event => {
   event.waitUntil(

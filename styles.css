@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;  /* 字体更现代 */
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;  /* 浅灰背景 */
+}
+
+h1 {
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 600px) {  /* 手机屏（宽度 <= 600px） */
+  h1 {
+    font-size: 1.5em;  /* 标题小点 */
+  }
+  input, button {
+    width: 100%;  /* 全宽 */
+    margin-bottom: 10px;  /* 垂直间距 */
+  }
+}
